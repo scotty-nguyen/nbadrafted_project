@@ -1,8 +1,8 @@
 -- Downloaded dataset and opened it on Excel
--- Sort A—>Z player_name while expanding the selection
+-- Sort Aâ€”>Z player_name while expanding the selection
 -- Double check if age is in order for players
 -- Remove duplicates under player_name column while expanding the selection
--- Now, I have all the players’ data when they first entered the league whether they were drafted or undrafted (aside from the older veterans who were drafted before 1996 since this dataset accounts stats from the 1996 season to the 2020 season)
+-- Now, I have all the playersâ€™ data when they first entered the league whether they were drafted or undrafted (aside from the older veterans who were drafted before 1996 since this dataset accounts stats from the 1996 season to the 2020 season)
 -- Imported spreadsheet onto SQL
 
 SELECT *
@@ -208,6 +208,7 @@ SET draftyear = 'Undrafted', draftround = 'Undrafted', draftnumber = 'Undrafted'
 FROM PortfolioProject..nbaplayers_1st
 WHERE player_name = 'Mark Jones'
 
+-- I checked several players' statlines at random throughout the dataset on nba.com and basketball-reference.com to double check if all the data checks out and it does.
 -- Now I can begin my data analysis/exploration
 
 -- Averages of players drafted since 1996 and played in a game (Stats are from their first season playing in the NBA)
