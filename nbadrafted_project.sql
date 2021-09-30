@@ -208,7 +208,7 @@ SET draftyear = 'Undrafted', draftround = 'Undrafted', draftnumber = 'Undrafted'
 FROM PortfolioProject..nbaplayers_1st
 WHERE player_name = 'Mark Jones'
 
--- I checked several players' statlines at random throughout the dataset on nba.com and basketball-reference.com to double check if all the data checks out and it does.
+-- I checked several player's statlines at random throughout the dataset on nba.com and basketball-reference.com to double check if all the data checks out and it does.
 -- Now I can begin my data analysis/exploration
 
 -- Averages of players drafted since 1996 and played in a game (Stats are from their first season playing in the NBA)
